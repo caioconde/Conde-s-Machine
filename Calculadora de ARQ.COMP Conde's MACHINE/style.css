@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2E6F40;
+}
+h1 {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.758);
+  font-size: 50px;
+}
+h3 {
+	color: rgb(0, 0, 0);
+font-size: 1.9rem;  
+}
+
+.pai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.filho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+  height: fit-content;
+  background-color: rgb(58, 158, 103);
+  border-radius: 25px;
+  border: solid 2px rgb(1, 80, 31);
+  padding: 70px;
+  margin-top: -50px;
+}
+input {
+  border-radius: 20px;
+	width: 250px;
+	height: 25px;
+	outline: none;
+	border: 1px solid rgb(255, 255, 255);
+}
+button {
+  border-radius: 20px;
+  width: 150px;
+	height: 25px;
+ border: none;
+}
